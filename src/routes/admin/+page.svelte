@@ -126,6 +126,7 @@
 		<div class="modal">
 			<h2>Paina tästä niin kirjaudutaan sisään :)</h2>
 			<button class="logout-button" on:click={() => goto('/')}>Takaisin</button>
+			<button class="logout-button" on:click={auth.logout}>Logout</button>
 			<button class="login-button" on:click={auth.login}>Login</button>
 		</div>
 		<div class="overlay"></div>
